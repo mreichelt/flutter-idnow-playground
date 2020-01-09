@@ -1,5 +1,6 @@
 import Flutter
 import UIKit
+import IDnowSDK
 
 public class SwiftFlutterIdNowPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
