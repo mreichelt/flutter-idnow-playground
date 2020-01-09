@@ -1,0 +1,51 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - Flutter (1.0.0)
+  - flutter_id_now (0.0.1):
+    - Flutter
+    - IDnowSDK
+  - IDnowSDK (4.0.0):
+    - FLAnimatedImage (~> 1.0)
+    - libPhoneNumber-iOS (~> 0.9)
+    - Masonry (~> 1.1.0)
+    - Sentry (~> 4.3.4)
+    - SocketRocket (~> 0.5.1)
+  - libPhoneNumber-iOS (0.9.15)
+  - Masonry (1.1.0)
+  - Sentry (4.3.4):
+    - Sentry/Core (= 4.3.4)
+  - Sentry/Core (4.3.4)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_id_now (from `.symlinks/plugins/flutter_id_now/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FLAnimatedImage
+    - IDnowSDK
+    - libPhoneNumber-iOS
+    - Masonry
+    - Sentry
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_id_now:
+    :path: ".symlinks/plugins/flutter_id_now/ios"
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_id_now: 89e2fc16c089e9dd676fe12f68154c74f4365231
+  IDnowSDK: d803f0449e7d60dd28bc4dbdd1552110155ec767
+  libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Sentry: 26f0e6492b103e87434d1a5eea2d241a36f2c2a2
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.4
